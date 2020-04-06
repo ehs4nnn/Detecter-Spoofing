@@ -33,13 +33,39 @@
 
             #About The Tool
                 This Tool is Created By Python3 Programming Language, Thats Made For 
-                Protect Your Slef From MITM Attack And Any Spoofing Attack :)
-                When You're Using This Tool You Will Be Careful Who Want To Spoofing And 
+                Protect Your Self From MITM Attack And Any Spoofing Attack :)
+                When You're Using This Tool You Will Be Careful About Who Want To Spoofing And 
                 Become A Man In The Middle Between You And Your Router And Sping On You!
                 
                 
-            #installation & Usage
+                
+            #installation & Usage For Linux & macOS
                   git clone https://github.com/ehs4nnn/Detecter-Spoofing.git
                   cd detector-spoofing
-                  sudo chmod +x detector_spoofing.py
+                  sudo chmod +x Detector_Spoofing.py
                   sudo python3 detector_spoofing.py
+
+
+
+
+            #Instalation & Usage For Windows
+                  If You're Install Python Then Follow This Steps
+                  >Open The CMD Then Run This Comands
+                  1- >set path=”Pase The Python File Location"
+                  Then:
+                  2- >Dwonload The Zip File
+                  3- >Extract All Files
+                  Then:
+                  4- >open CMD & Run The Down Commands
+                  5- >cd Dwonloads
+                  6- >python detecter_spoofing.py
+                  And White For Result :)
+
+
+
+            #How I Can Know I'm Under Attack By Using This Tool?!
+                  After You're Run This Comman [sudo python3 detecter_spoofing.py] you want To white
+                  for 2 minute And You Will Get Two Result:
+                  1- If you're Under Any Spoofing Attack You Will See That Statement ( [+]You're Under Attack!)
+                  2- If You Doesn't Under Any Spoofing Attack And Everything Is Normail You Will See This Statement:
+                  { Everything Is Normal :) }
