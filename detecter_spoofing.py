@@ -1,6 +1,24 @@
 #!/usr/bin/env python
 import scapy.all as scapy
 
+figlet_tool_style = """
+	 ____       _            _               ____                     __ _             
+	|  _ \  ___| |_ ___  ___| |_ ___  _ __  / ___| _ __   ___   ___  / _(_)_ __   __ _ 
+	| | | |/ _ \ __/ _ \/ __| __/ _ \| '__| \___ \| '_ \ / _ \ / _ \| |_| | '_ \ / _` |
+	| |_| |  __/ ||  __/ (__| || (_) | |     ___) | |_) | (_) | (_) |  _| | | | | (_| |
+	|____/ \___|\__\___|\___|\__\___/|_|    |____/| .__/ \___/ \___/|_| |_|_| |_|\__, |
+						      |_|                            |___/ 
+
+	       <-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+->
+				    By: EhSaN FaRaMaRz
+			    GiTHuB: https://github.com/ehs4nnn/
+			     yOuTubE: https://bit.ly/3aiMyjV
+				EmAiL: ehsan@rajekar.com
+	       <-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+->
+"""
+
+print(figlet_tool_style)
+
 def get_mac(ip):
 	arp_request = scapy.ARP(pdst=ip)
 	broadcast = scapy.Ether(dst="ff:ff:ff:ff:ff:ff")
