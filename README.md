@@ -39,7 +39,7 @@
                 
                 
             #installation & Usage
-                  git clone []
+                  git clone https://github.com/ehs4nnn/Detecter-Spoofing.git
                   cd detector-spoofing
                   sudo chmod +x detector_spoofing.py
                   sudo python3 detector_spoofing.py
